@@ -57,3 +57,24 @@ Após esse histograma fizemos um Ridgeline Chart contendo detalhadamente, de for
 
 ![image](https://github.com/user-attachments/assets/29162a5a-f8df-4a8b-9b43-81001d361fa9)
 
+
+Tendo essa parte finalizada, analisamos agora as redes de citação dos períodos de avaliação do PPgEEC, tendo o tamanho do vértice proporcional ao número de vizinhoscom destaque aos top 5 vértices
+com mais vizinhos em cor distinta. A cor da aresta sendo vermelha em caso de uma ligação entre membros permanentes do PPgEEC e preta caso contrário, enquanto a largura é proporcional à quantidade de citações.
+
+
+* Por as imagens e análises(as analises são basicamente identicas, mudando só a facilidade de vizualização pelo quão populoso é o grafo)
+
+
+Em um ambito mais geral, temos a vizualização dos grafos da rede de citações geral(2010 a 2024) e do sub-grafo em que só mantemos os vertices que tenham pelo menos 71 vizinhos.
+
+
+* Colocar a imagem dos grafos lado a lado
+
+
+Suas densidades são de aproximadamente 0.87% e 27.22%, respectivamente, esse crescimento é explicado por nessa filtragem, ao diminuir o número de vertices, diminui-se o numero máximo de arestas numa taxa quadratica, enquanto mantemos aqueles com mais conexões, fazendo com que o número presente de arestas diminua devagar, assim aumentando a proporção entre esses valores, ou seja, a densidade.
+
+
+E por fim, vemos um grafo ego de um vertice aleatoriamente escolhido dentre o grafo geral
+
+
+* Imagem do grafo ego
